@@ -1,7 +1,5 @@
 package edu.eci.pdsw.models;
 
-import java.lang.String;
-
 public class Todo {
     int userId;
     int id;
