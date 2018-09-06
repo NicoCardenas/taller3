@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 public class SampleServlet extends HttpServlet{
     static final long serialVersionUID = 35L;
 
-    @Override
+   @Override
    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
        Writer responseWriter = resp.getWriter();
        Optional<String> optName = Optional.ofNullable(req.getParameter("name"));
